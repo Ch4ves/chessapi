@@ -1,5 +1,6 @@
 # chessapi
 
+https://chessapi-demo.herokuapp.com/players
 
 Tecnologias utilizadas: SPRINGBOOT, SPRING DATA JPA.
 
@@ -43,8 +44,8 @@ Atualização do Rating
 </a>
 
 
+To do: Implementar seguranca, cache e documentacao.
 
-*Proximos passos: Implementar seguranca, cache e documentacao.
 
 
 
