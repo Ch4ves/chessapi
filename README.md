@@ -8,13 +8,17 @@ CRUD.
 
 Apesar de utilizar o dados da FIDE a aplicação não suporta todos os campos contidos no XML. Somente fideId, Name, Country, rating e yearOfBirth. Esses são os parametros que devem ser enviados para a criação de novos jogadores, deve-se utilizar o formato json.
 
-O único atributo que pode ser utilizado é o rating. Deve-se utilizar o formato json.
-
-Exclusão são feitas passando o ID pela URL.
+Um GET para /players vai retornar um JSON com todos os players cadastrados.
 
 É possível fazer busca pelo nome passando o parametro name pela URL. 
 
-Um GET para /players vai retornar um JSON com todos os players cadastrados.
+
+O único atributo que pode ser atualizado é o rating. Deve-se utilizar o formato json.
+
+Exclusão são feitas passando o ID pela URL.
+
+
+
 
 
 Busca utilizando /players
@@ -37,7 +41,7 @@ Atualização do Rating
 
 
 
-
+*Proximos passos: Implementar seguranca, cache e documentacao.
 
 
 
