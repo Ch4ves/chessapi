@@ -45,7 +45,7 @@ Atualização do Rating
 
 
 To do: Implementar seguranca, cache e documentacao.
-
+*Estou usando todos os dados do xml somente no ambiente de desenvolvimento. BD muito grande para subir pro heroku.
 
 
 
