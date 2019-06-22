@@ -22,6 +22,10 @@ public class Player {
 
 	private String country;
 
+	private int rating;
+
+	private int yearOfBirth;
+
 	public Player(int fideId, String name, String country, int rating, int yearOfBirth) {
 		super();
 		this.fideId = fideId;
@@ -30,10 +34,6 @@ public class Player {
 		this.rating = rating;
 		this.yearOfBirth = yearOfBirth;
 	}
-
-	private int rating;
-
-	private int yearOfBirth;
 
 	public long getId() {
 		return id;
