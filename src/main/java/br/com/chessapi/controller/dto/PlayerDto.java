@@ -1,7 +1,6 @@
 package br.com.chessapi.controller.dto;
 
-import java.util.List;
-import java.util.stream.Collectors;
+import org.springframework.data.domain.Page;
 
 import br.com.chessapi.model.Player;
 
@@ -29,10 +28,9 @@ public class PlayerDto {
 		this.yearOfBirth = player.getYearOfBirth();
 	}
 
-	public static List<PlayerDto> convert(List<Player> players) {
+	public static Page<PlayerDto> convert(Page<Player> players) {
 
-		return players.stream().map(PlayerDto::new).collect(Collectors.toList());
-
+		return players.map(PlayerDto::new);
 	}
 
 	public long getId() {
