@@ -25,7 +25,7 @@ User: admin@admin.com
 
 Password: 123456
 
-Token: eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDaGVzcyBBUEkiLCJzdWIiOiIxIiwiaWF0IjoxNTYxODIyNzE5LCJleHAiOjE1NjI3NTY3MTl9.OlRAgOC-EtqeBfrvdlG21GxxulgWpK0cPH01CXpvs1o
+Token: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJDaGVzcyBBUEkiLCJzdWIiOiIxIiwiaWF0IjoxNTYxODIyNzE5LCJleHAiOjE1NjI3NTY3MTl9.OlRAgOC-EtqeBfrvdlG21GxxulgWpK0cPH01CXpvs1o"
 
 
 
