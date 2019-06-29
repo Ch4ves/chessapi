@@ -105,6 +105,7 @@ public class PlayerController {
 		Optional<Player> optional = playerRepository.findById(id);
 		if (optional.isPresent()) {
 			playerRepository.deleteById(id);
+			return ResponseEntity.ok().build();
 
 		}
 

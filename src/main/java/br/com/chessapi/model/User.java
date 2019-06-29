@@ -19,7 +19,7 @@ public class User implements UserDetails {
 
 	private static final long serialVersionUID = 1L;
 	@Id
-	
+
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String name;
@@ -28,6 +28,14 @@ public class User implements UserDetails {
 
 	@ManyToMany(fetch = FetchType.EAGER)
 	private List<Profile> profiles = new ArrayList<Profile>();
+
+	public List<Profile> getProfiles() {
+		return profiles;
+	}
+
+	public void setProfiles(List<Profile> profiles) {
+		this.profiles = profiles;
+	}
 
 	@Override
 	public int hashCode() {
