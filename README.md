@@ -10,7 +10,7 @@ Ratings: https://ratings.fide.com/download.phtml
 
 O arquivo da FIDE tem mais de trezentos mil players cadastrados. Não Inclui todos eles no BD.
 
-Disponibilizarei o dump no futuro.
+Dump somente com os Players em /DB.
 
 CRUD.
 
