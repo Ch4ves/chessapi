@@ -46,12 +46,14 @@ public class PlayerHandler extends DefaultHandler {
 		} else if ("rating".equals(qName)) {
 			player.setRating(Integer.parseInt(content.toString()));
 		} else if ("birthday".equals(qName)) {
-			if(content.toString().equals(null))player.setYearOfBirth(0);
-			if(player.getYearOfBirth() != 0) {
-				player.setYearOfBirth(Integer.parseInt(content.toString()));
 
-			}
-			
+				try {
+					player.setYearOfBirth(Integer.parseInt(content.toString()));
+
+				} catch (Exception e) {
+					//cry // TODO: handle exception
+				}
+
 		}
 
 	}
